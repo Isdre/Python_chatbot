@@ -1,0 +1,19 @@
+{
+  "talks": [
+    {
+      "tag": "przywitanie",
+      "examples": ["cześć","czesc","siema","witaj","dzień dobry","dobry wieczór","dzien dobry","dobry wieczor"],
+      "responses": ["cześć","czesc","siema","witaj","dzień dobry","dobry wieczór","dzien dobry","dobry wieczor"]
+    },
+    {
+      "tag": "pożegnianie",
+      "examples": ["żegnaj","czesc","siema","witaj","zegnaj","cześć","spadam","idę","ide"],
+      "responses": ["żegnaj","czesc","siema","witaj","zegnaj","cześć","spadam","idę","ide"]
+    },
+    {
+      "tag": "coto",
+      "examples": ["czym jesteś","co to","czym jestes","kim jesteś","kim jestes"],
+      "responses": ["jestem chatbotem"]
+    }
+  ]
+}
