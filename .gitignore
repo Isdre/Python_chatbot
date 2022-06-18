@@ -1,7 +1,8 @@
 blabbermouth_toxic.json
 .ipynb_checkpoinkts/
-blabbermouth_toxic.dot
+blabbermouth_toxic.json
 token.json
 .idea/
 venv/
-chatbot_toxic.joblib
+chatbot_toxic.pkl
+responses_toxic.json

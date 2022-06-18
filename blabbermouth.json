@@ -2,7 +2,7 @@
   "talks": [
     {
       "tag": "przywitanie",
-      "examples": ["cześć","czesc","siema","witaj","dzień dobry","dobry wieczór","dzien dobry","dobry wieczor"],
+      "examples": ["hej","cześć","czesc","siema","witaj","dzień dobry","dobry wieczór","dzien dobry","dobry wieczor"],
       "responses": ["cześć","siema","witaj","dzień dobry","dobry wieczór"]
     },
     {
