@@ -3,3 +3,5 @@ blabbermouth_toxic.json
 blabbermouth_toxic.dot
 token.json
 .idea/
+venv/
+chatbot_toxic.joblib

@@ -3,17 +3,22 @@
     {
       "tag": "przywitanie",
       "examples": ["cześć","czesc","siema","witaj","dzień dobry","dobry wieczór","dzien dobry","dobry wieczor"],
-      "responses": ["cześć","czesc","siema","witaj","dzień dobry","dobry wieczór","dzien dobry","dobry wieczor"]
+      "responses": ["cześć","siema","witaj","dzień dobry","dobry wieczór"]
     },
     {
       "tag": "pożegnianie",
-      "examples": ["żegnaj","czesc","siema","witaj","zegnaj","cześć","spadam","idę","ide"],
-      "responses": ["żegnaj","czesc","siema","witaj","zegnaj","cześć","spadam","idę","ide"]
+      "examples": ["żegnaj","zegnaj","spadam","idę","ide","dowidzenia","nara","pa"],
+      "responses": ["żegnaj","siema","witaj","cześć"]
     },
     {
       "tag": "coto",
       "examples": ["czym jesteś","co to","czym jestes","kim jesteś","kim jestes"],
       "responses": ["jestem chatbotem"]
+    },
+    {
+      "tag": "pogoda",
+      "examples": ["pada","pada deszcz","jest upał","jest zimno","burza","pioruny","błyskawice","wiatr","wichura","pada śnieg","śnieg","wichura"],
+      "responses": ["ja nie mam takich problemów","fajnie by było poczuć pogodę","zazdroszczę"]
     }
   ]
 }
