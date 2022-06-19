@@ -1,15 +1,22 @@
 import json
 import pickle
-import sklearn
-from sklearn.feature_extraction.text import CountVectorizer
-
-vectorizer = CountVectorizer()
+import random
 
 with open("responses.json","r",encoding='UTF-8') as f:
-    response = json.load(f)
+    responses = json.load(f)
 
 with open("chatbot.pkl","rb") as f:
-    brain = pickle.load(f)
+    vectorizer, brain = pickle.load(f)
 
-test = brain.predict(vectorizer.transform(["cześć"]))
-print(test)
+# brain = joblib.load('chatbot.joblib')
+
+# test = vectorizer.transform(["cześć"])
+# print(test)
+# w = brain.predict(test)
+# print(w)
+
+def response_me(message):
+    m = vectorizer.transform(message)
+    tag = brain.predict(m)[0]
+    # print(responses[tag])
+    return random.sample(responses[tag],1)
