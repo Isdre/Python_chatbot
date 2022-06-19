@@ -16,6 +16,7 @@ with open("chatbot.pkl","rb") as f:
 # print(w)
 
 def response_me(message):
+    # print("answering")
     m = vectorizer.transform(message)
     tag = brain.predict(m)[0]
     # print(responses[tag])

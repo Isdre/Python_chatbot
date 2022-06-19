@@ -6,3 +6,4 @@ token.json
 venv/
 chatbot_toxic.pkl
 responses_toxic.json
+avatar.jpg
